@@ -1,0 +1,115 @@
+@font-face {
+  font-family:'News Gothic MT';
+  src: url("fonts/News Gothic MT.eot");
+    src: url("fonts/News Gothic MT.woff");
+  font-weight: normal;
+  font-style: normal; }
+body{
+	background-color: black;
+	height: 768px;
+}
+#container {
+  width: 100%;
+  height: 852px;
+  background-color: black;
+  margin: 0 auto;
+}
+#fondo{
+	width: 100%;
+	height: 768px;
+	background: url(../img/bg_home.jpg) center center no-repeat;
+	margin: 0 auto;
+}
+#textura{
+	width: 100%;
+	height: 768px;
+	background: url(../img/techtexture.png) center center no-repeat;
+	margin: 0 auto;
+	position: absolute;
+	z-index: 1;
+}
+#moto{
+	width: 100%;
+	height: 768px;
+	background: url(../img/moto.png) center center no-repeat;
+	margin: 0 auto;
+	position: absolute;
+	z-index: 2;
+}
+#repuesto1{
+	width: 100%;
+	height: 768px;
+	background: url(../img/repuesto1.png) center center no-repeat;
+	margin: 0 auto;
+	position: absolute;
+	z-index: 3;
+}
+#llanta{
+	width: 100%;
+	height: 768px;
+	background: url(../img/llanta.png) center center no-repeat;
+	margin: 0 auto;
+	position: absolute;
+	z-index: 4;
+}
+#letrero{
+	width: 100%;
+	height: 768px;
+	background: url(../img/logo.png) center center no-repeat;
+	margin: 0 auto;
+	position: absolute;
+	z-index: 4;
+}
+#lista{
+	position: absolute;
+	z-index: 99;
+	right: 0;
+	width: 40%;
+	height: 400px;
+	bottom: 0;
+}
+.seccion{
+	font-family:'News Gothic MT';
+	color: white;
+	font-size: 30px;
+	border-bottom: 0px solid;
+	width: 50%;
+	height: 32px;
+	bottom: 0;
+  -webkit-transition: border-bottom 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.seccion:hover {
+font-family: 'News Gothic MT';
+color: white;
+border-bottom: 2px solid;
+width: 75%;
+height: 65px;
+font-size: 50px;
+text-align: left;
+display: block;
+}
+
+.seccion2 {
+  width: 100%;
+  height: 500px;
+  background: url(../img/bg_seccion2.jpg) no-repeat center 100% fixed;
+  background-size: 100%;
+}
+.textos {
+	font-family:'News Gothic MT';
+  color: white;
+  background: rgb(43, 31, 20);
+  height: 340px;
+  text-align: center;
+  font-size: 54px;
+  padding: 3px;
+}
+.seccion3 {
+  width: 100%;
+  height: 1000px;
+  background: url(../img/bg_seccion2.jpg) no-repeat center 100% fixed;
+  background-size: 100%;
+}

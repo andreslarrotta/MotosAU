@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="stylesheet" href="css/style.css"> <!-- CSS reset -->
+	<title></title><!-- 70 caracteres  -->
+</head>
+<body>
+<div id="container" class="container">
+<ul id="scene" class="scene">
+			<li id="fondo"     class="layer" data-depth="0.20"></li>
+			<li id="moto"      class="layer" data-depth="0.25"></li>
+			<li id="repuesto1" class="layer" data-depth="0.21"></li>
+			<li id="llanta"    class="layer" data-depth="0.22"></li>
+			<li id="letrero"   class="layer" data-depth="0.24"></li>
+</ul>
+<div id="lista">
+<div class="seccion" id="textseccion1">Nuestro Equipo</div>
+<div class="seccion" id="textseccion2">Productos</div>
+<div class="seccion" id="textseccion3">Así Trabajamos</div>
+<div class="seccion" id="textseccion4">Contacto</div>
+</div>
+</div>
+<section class="seccion2">
+	<div>
+	</div>
+</section>
+<div class="textos">
+<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de la industria desde que el año 1500,</p>	
+</div>
+<section class="seccion2">
+	<div>
+	</div>
+</section>
+<section class="seccion3">
+	<div>
+	</div>
+</section>
+<!-- Scripts -->
+	<script src="deploy/parallax.js"></script>
+	<script>
+
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+
+	</script>
+
+</body>
+</html>
